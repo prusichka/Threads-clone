@@ -9,7 +9,7 @@
       >
         <img
           class="w-[35px]"
-          :src="'/threads-logo.png' || '/assets/threads-logo.png'"
+          src="~/assets/threads-logo.png"
           alt="logo"
           width="35"
           height="35"
