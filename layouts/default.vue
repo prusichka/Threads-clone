@@ -1,9 +1,4 @@
-<script setup lang="ts">
-const route = useRoute();
-const activeRoute = computed(() => {
-  console.log(route);
-});
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div id="defaultLayout" class="bg-black fixed w-[calc(100%+1px)] h-full">
@@ -14,12 +9,11 @@ const activeRoute = computed(() => {
       >
         <img
           class="w-[35px]"
-          src="/threads-logo.png"
+          :src="'/threads-logo.png' || '/assets/threads-logo.png'"
           alt="logo"
           width="35"
           height="35"
         />
-        {{ activeRoute }}
       </div>
     </div>
 
